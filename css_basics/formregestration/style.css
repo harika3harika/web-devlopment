@@ -1,0 +1,48 @@
+.regester-div{
+    font-family: monospace;
+    background-image: linear-gradient(45deg,blueviolet,deeppink);
+    width: 300px;
+    color: white;
+    padding: 15px;
+    margin: 50px auto;
+
+}
+.regester-div h2{
+    font-size: 30px;
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    margin: 10px 0;
+
+}
+.form-control{
+    height: 18px;
+    font-size: 18px;
+    border: none;
+    width: 290px;
+
+}
+.register-btn{
+    margin: 15px 0;
+    background-image: linear-gradient(45deg,blueviolet,deeppink);
+    padding: 12px 25px;
+    width: 290px;
+    border:none;
+    color: white;
+    box-shadow: 0 5px 10px black;
+
+}
+.fa-user-circle{
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    border: 10px solid deeppink;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin: auto;
+    background-color: deepblue;
+    box-shadow: 0 5px 10px black;
+}

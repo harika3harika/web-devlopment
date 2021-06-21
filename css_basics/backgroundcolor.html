@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>background color</title>
+        <style>
+            body{
+                font-family: sans-serif; }
+                #bg-color{
+                    background-color: teal;
+                    
+                }
+            #bg-image{
+                box-shadow: 0 0 10px;
+                padding: 15px;
+                width: 500px;
+                background-image: url("../img/image1.png");
+            }
+            #bg-repeat{
+                width: 500px;
+                height: 300px;
+                box-shadow: 0 0 10px black;
+                background-image: url("../img/image2.jpg");
+                background-position: top right;
+                background-attachment: fixed;
+            }
+         #bg-attachment{
+             height: 100px;
+             box-shadow: 0 0 10px red;
+             background-image: url("../img/image1.png");
+             background-attachment: fixed;
+
+
+
+         }
+         #bg-size{
+             width: 300px;
+             height: 300px;
+             background-size:cover ;
+             box-shadow: 0 0 10px blueviolet;
+             background-image: url("../img/image1.png");
+
+         }
+    #gradient{
+        width: 500px;
+        height: 300px;
+        box-shadow: 0 0 10px black;
+background-image: linear-gradient(45deg, pink,rgb(117, 64, 241),orangered);
+    }
+            
+        </style>
+    </head>
+    <body>
+        <h2>background-color</h2>
+        <div id="bg-color">
+            <h1>iam teal color background</h1>
+        </div>
+        <h2>background image</h2>
+        <div id="bg-image">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error corrupti ipsa minus aperiam iure officia totam suscipit rem facilis.</p>
+<h2>background background-attachment</h2>
+<div id="bg-attachment">
+
+</div>
+        </div>
+        <h2>background repeat</h2>
+        <div id="bg-repeat">
+
+        </div>
+        <div id="bg-size">
+            <h2>background size</h2>
+        </div>
+        <div>
+            <h2>gradient</h2>
+            <div id="gradient">
+
+            </div>
+        </div>
+        
+    </body>
+    
+</html>

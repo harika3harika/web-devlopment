@@ -1,0 +1,8 @@
+@media (max-width:500px) {
+    body {
+        background-color: yellowgreen;
+    }
+    #mobile h1{
+        display: block;
+    }
+}

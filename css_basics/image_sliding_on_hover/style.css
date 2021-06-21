@@ -1,0 +1,36 @@
+.container{
+    
+    width: 300px;
+    height: 450px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.container img{
+    height: inherit;
+    width: inherit;
+    transition: all 0.5s; 
+}
+.container .content{
+    position: absolute;
+background-image: linear-gradient(45deg, red, black);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 10px;
+font-size: 18px;
+color: burlywood;
+bottom: -40%;
+transition: all 0.5s;
+}
+.container:hover .content{
+  
+    bottom: 0%;
+}
+.container:hover img{
+    transform: translateY(-40%);
+    transition: all 0.5s;
+
+}

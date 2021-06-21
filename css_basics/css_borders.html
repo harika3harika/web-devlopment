@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>css borders</title>
+        <style>
+           
+           body{
+               font-family: Arial, Helvetica, sans-serif;
+           }
+           div{
+               background-color: salmon;
+               text-align: center;
+               padding: 20px;
+               font-size: 25px;
+               width: 500px;
+           }
+           #border-all{
+               border: 10px solid black;
+               
+           }
+#border-single{
+    border-left: 15px solid blue;
+}
+#border-rounded{
+    border:10px solid blue;
+    border-radius: 80px;}
+
+    #border-rounded-two{
+    border:10px solid orangered;
+    border-radius: 80px 0 50px 0;
+}
+            #circle{
+                height: 200px;
+                width: 200px;
+                box-shadow: 0 0 10px black;
+                border-radius: 50%;
+            }
+            #border-circle{
+                height: 200px;
+                width: 200px;
+                box-shadow: 0 0 10px black;
+                border-radius: 50%;
+                border: 25px solid rgb(238, 20, 227);
+            }
+            #border-frame{
+                height: 200px;
+                width: 200px;
+                box-shadow: 0 0 10px black;
+                border: 25px solid green;
+                border-top:25px solid hotpink;
+                border-bottom: 25px solid red;
+            }
+            #border-ring{
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                box-shadow: 0 0 10px black;
+                border: 25px solid purple;
+                background-image: linear-gradient(45deg,rgb(230, 89, 89),rgb(84, 84, 231));
+                
+            }
+            #youtube{
+                height: 300px;
+                width: 500px;
+                box-shadow: 0 0 20px black;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h2>borders all sides</h2>
+        <div id="border-all">
+        <h2>border all sides</h2></div>
+
+        <h2>borders single sides</h2>
+        <div id="border-single">
+        <h2>border all sides</h2></div>
+
+        <h2>borders rounded</h2>
+        <div id="border-rounded">
+        <h2>border all sides</h2></div>
+
+        
+        <h2>borders rounded two</h2>
+        <div id="border-rounded-two">
+        <h2>border all sides</h2></div>
+        <h2>circle</h2>
+<section id=circle></section>
+<h2>border circle</h2>
+<section id="border-circle"></section>
+
+<h2>border frame</h2>
+<section id="border-frame"></section>
+
+<h2>border ring<h2>
+<section id="border-ring"></section>
+<h2>custom border<h2>
+    <section id="youtube"></section>
+
+    </body>
+    
+</html>

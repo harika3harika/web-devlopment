@@ -1,0 +1,8 @@
+@media (min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: royalblue;
+    }
+    #laptop h1{
+        display: block;
+    }
+}

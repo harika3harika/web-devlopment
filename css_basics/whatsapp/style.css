@@ -1,0 +1,49 @@
+
+.main{
+
+   border-radius: 10px;
+   position: relative;
+   left: 300px;
+    
+}
+.con{
+    background-color: rgb(243, 229, 229);
+    height: 520px;
+    width: 300px;
+    border-radius:50px solid black;
+    
+}
+.box{
+    
+    
+    background-color: #16a798;
+    height: 60px;
+    width: 300px;
+   display: flex;
+   
+   
+  
+   
+}
+.box:hover{
+    background-color: #206b64;
+}
+.center{
+ 
+ margin-left: 5px;
+ margin-top: 17px;
+
+ 
+ 
+    
+}
+h1{
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system;
+}
+hr{
+    width: 280px;
+}

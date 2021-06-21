@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>css display</title>
+        <style>
+           body{font-family: sans-serif;
+           }
+           div{
+               margin: 20px;
+           }
+           h3{background-color: orchid;
+           padding: 5px;
+           margin: 5px;
+           display: inline;}
+           span{background-color: burlywood;
+           display: block;}
+           a{
+               background-color: coral;
+               padding: 5px;
+               margin: 5px;
+               color: white;
+               display: block;
+           }
+           h1{
+               background-color: darkred;
+               color: white;
+               text-align: center;
+               padding: 20px;
+               display: none;
+           }
+           .parent{
+               background-color: gray;
+               padding: 15px;}
+               .child{
+                   background-color:aquamarine;
+                   padding: 15px;
+                   color: white;
+                   width: 200px;
+                   display: inline-block;
+                   text-align: center;
+                   box-shadow: 0 0 10px solid orangered
+                   ;
+               }           
+        </style>
+
+    </head>
+    <body>
+        
+       <!--inline-->
+       <div>
+       <h3>good morining</h3>
+       <h3>good afernoon</h3>
+       <h3>good evening</h3>
+       </div>
+
+       <!--block-->
+       <div>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+               <span>1.Laboriosam quibusdam sequi eveniet. Cumque quae quos animi.</span>
+               <span>2.Cum incidunt eos exercitationem suscipit molestiae voluptate.</span> 
+               <span>3.Saepe at repellendus iste quis, adipisci repudiandae temporibus.</span>
+                Suscipit, libero. Rerum quibusdam, totam libero deserunt cupiditate commodi.</p>
+       </div>   
+       <!--block-->
+       <div> 
+       <a href="#">home</a>
+       <a href="#">aboutus</a>
+       <a href="#">courses</a>
+       <a href="#">countact us</a>
+    </div>
+<!--hide-->
+<div>
+<h1>hello iam hidden</h1>
+</div>
+<!--inline block-->
+<div class="parent">
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem natus magnam neque dolorem minima. Dolore sit cumque adipisci vitae, animi ut voluptates repellendus nihil repellat similique maxime sequi quis cupiditate aut odio illum blanditiis! Praesentium repellat corrupti inventore sit?</p>
+    </div>
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem natus magnam neque dolorem minima. Dolore sit cumque adipisci vitae, animi ut voluptates repellendus nihil repellat similique maxime sequi quis cupiditate aut odio illum blanditiis! Praesentium repellat corrupti inventore sit?</p>
+    </div>
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem natus magnam neque dolorem minima. Dolore sit cumque adipisci vitae, animi ut voluptates repellendus nihil repellat similique maxime sequi quis cupiditate aut odio illum blanditiis! Praesentium repellat corrupti inventore sit?</p>
+    </div>
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem natus magnam neque dolorem minima. Dolore sit cumque adipisci vitae, animi ut voluptates repellendus nihil repellat similique maxime sequi quis cupiditate aut odio illum blanditiis! Praesentium repellat corrupti inventore sit?</p>
+    </div>
+</div>
+    </body>
+    
+</html>
